@@ -13,14 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Aki.Common">
-      <HintPath>..\References\Aki.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Aki.Reflection">
-      <HintPath>..\References\EFT_Managed\Aki.Reflection.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\References\EFT_Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -32,6 +24,12 @@
     <Reference Include="Comfort.Unity">
       <HintPath>..\References\EFT_Managed\Comfort.Unity.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="spt-common">
+      <HintPath>spt-common.dll</HintPath>
+    </Reference>
+    <Reference Include="spt-reflection">
+      <HintPath>spt-reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\References\EFT_Managed\UnityEngine.dll</HintPath>
